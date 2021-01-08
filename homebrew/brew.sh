@@ -107,11 +107,13 @@ brew install --cask eudic
 brew install --cask firefox
 brew install --cask gitup
 brew install --cask google-chrome
+brew install --cask grandperspective
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask iina
 brew install --cask iterm2
 brew install --cask kap
 brew install --cask karabiner-elements
+brew install --cask keka
 brew install --cask kindle
 brew install --cask libreoffice
 brew install --cask liya
