@@ -111,6 +111,8 @@ brew install --cask grandperspective
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask iina
 brew install --cask iterm2
+brew install --cask itsycal
+brew install --cask java
 brew install --cask kap
 brew install --cask karabiner-elements
 brew install --cask keka
@@ -130,6 +132,7 @@ brew install --cask spotify
 brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask telegram
+brew install --cask telegram-desktop
 brew install --cask tencent-meeting
 brew install --cask transmission
 brew install --cask typora
