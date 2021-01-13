@@ -2,7 +2,7 @@
 
 OH_MY_ZSH="$HOME/.oh-my-zsh"
 OH_MY_TMUX="$HOME/.oh-my-tmux"
-OH_MY_VIM="$HOME/.oh-my-vim"
+OH_MY_VIM="$HOME/.vim_runtime"
 
 #
 # Create a symbolic link
@@ -65,6 +65,7 @@ _install_ohmyvim() {
 
 config_vim() {
   _install_ohmyvim
+  create_symlinks "vim/vimrc" "$HOME/.vim_runtime/my_configs.vim"
 }
 
 #
