@@ -20,13 +20,10 @@ brew install ack
 brew install aria2
 brew install arping
 brew install axel
-brew install bash
-brew install bash-completion@2
 brew install coreutils
 brew install curl
 brew install dos2unix
 brew install fd
-brew install flake8
 brew install findutils
 brew install fping
 brew install fzf
