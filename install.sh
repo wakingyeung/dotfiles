@@ -162,7 +162,7 @@ _install_ohmytmux() {
 
 config_tmux() {
   _install_ohmytmux
-  create_symlinks "${OH_MY_TMUX}/.oh-my-tmux/.tmux.conf" ".tmux.conf"
+  create_symlinks "${OH_MY_TMUX}/.tmux.conf" ".tmux.conf"
   create_symlinks "tmux/tmux.conf.local" ".tmux.conf.local"
 }
 
