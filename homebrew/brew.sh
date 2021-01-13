@@ -88,7 +88,9 @@ brew install watch
 brew install wget
 brew install yarn
 brew install youtube-dl
+brew install zsh-autosuggestions
 brew install zsh-completions
+brew install zsh-syntax-highlighting
 
 # Install cask.
 brew install --cask alfred
