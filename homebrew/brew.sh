@@ -11,8 +11,8 @@ brew upgrade
 # Install font tools.
 brew tap homebrew/cask-fonts
 brew install --cask homebrew/cask-fonts/font-fira-code
-brew insatll --cask homebrew/cask-fonts/font-source-code-pro
-brew insatll --cask homebrew/cask-fonts/font-hack
+brew install --cask homebrew/cask-fonts/font-source-code-pro
+brew install --cask homebrew/cask-fonts/font-hack
 brew install --cask font-jetbrains-mono
 
 # Install useful binaries.
@@ -50,7 +50,6 @@ brew install kubectl
 brew install macvim
 brew install mercurial
 brew install mitmproxy
-brew install mongodb
 brew install moreutils
 brew install mosh
 brew install mtr
@@ -62,7 +61,6 @@ brew install nmap
 brew install node
 brew install openssh
 brew install openssl@1.1
-brew install pandoc
 brew install pdsh
 brew install polipo
 brew install postgresql
@@ -74,7 +72,6 @@ brew install reattach-to-user-namespace
 brew install redis
 brew install ripgrep
 brew install screen
-brew install shellcheck
 brew install sqlite
 brew install the_silver_searcher
 brew install tig
@@ -82,7 +79,6 @@ brew install tldr
 brew install tmux
 brew install tmuxinator
 brew install tree
-brew install unrar
 brew install vim
 brew install watch
 brew install wget
