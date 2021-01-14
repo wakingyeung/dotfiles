@@ -46,7 +46,10 @@ brew install httpie
 brew install imagemagick
 brew install ipcalc
 brew install iproute2mac
+brew install jq
 brew install kubectl
+brew install lazydocker
+brew install lazygit
 brew install macvim
 brew install mercurial
 brew install mitmproxy
@@ -72,6 +75,7 @@ brew install reattach-to-user-namespace
 brew install redis
 brew install ripgrep
 brew install screen
+# brew install shellcheck
 brew install sqlite
 brew install the_silver_searcher
 brew install tig
@@ -93,10 +97,10 @@ brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask charles
 brew install --cask cheatsheet
-brew install --cask clashx
+# brew install --cask clashx
 brew install --cask dash
 brew install --cask deepl
-brew install --cask docker
+# brew install --cask docker
 brew install --cask enpass
 brew install --cask eudic
 brew install --cask firefox
@@ -105,23 +109,27 @@ brew install --cask google-chrome
 brew install --cask grandperspective
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask iina
+brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask itsycal
 brew install --cask java
 brew install --cask kap
-brew install --cask karabiner-elements
+# brew install --cask karabiner-elements
 brew install --cask keka
 brew install --cask kindle
+brew install --cask kitty
 brew install --cask libreoffice
+brew install --cask libreoffice-language-pack
 brew install --cask liya
 brew install --cask macdown
-brew install --cask menumeters
+# brew install --cask menumeters
 brew install --cask mysqlworkbench
+brew install --cask notion
 brew install --cask paw
 brew install --cask postman
 brew install --cask raspberry-pi-imager
 brew install --cask royal-tsx
-brew install --cask shadowsocksx-ng-r
+# brew install --cask shadowsocksx-ng-r
 brew install --cask sourcetree
 brew install --cask spotify
 brew install --cask sublime-text
@@ -131,11 +139,10 @@ brew install --cask telegram-desktop
 brew install --cask tencent-meeting
 brew install --cask transmission
 brew install --cask typora
-brew install --cask vagrant
-brew install --cask veracrypt
-brew install --cask virtualbox
+# brew install --cask vagrant
+# brew install --cask virtualbox
 brew install --cask visual-studio-code
-brew install --cask vmware-fusion
+# brew install --cask vmware-fusion
 brew install --cask wechat
 brew install --cask wechatwork
 brew install --cask wireshark
