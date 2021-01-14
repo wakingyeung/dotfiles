@@ -134,8 +134,8 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set language and text formats
-defaults write NSGlobalDomain AppleLanguages -array "en-CN" "zh-Hans-CN"
-defaults write NSGlobalDomain AppleLocale -string "zh_CN"
+defaults write NSGlobalDomain AppleLanguages -array "en-HK" "zh-Hans-HK"
+defaults write NSGlobalDomain AppleLocale -string "en_HK@currency=CNY"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
