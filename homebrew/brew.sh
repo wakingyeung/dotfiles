@@ -93,6 +93,7 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 # Install cask.
+brew install --cask alacritty
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask charles
