@@ -105,6 +105,7 @@ brew install --cask deepl
 brew install --cask enpass
 brew install --cask eudic
 brew install --cask firefox
+brew install --cask fliqlo
 brew install --cask gitup
 brew install --cask google-chrome
 brew install --cask grandperspective
@@ -143,6 +144,7 @@ brew install --cask typora
 # brew install --cask vagrant
 # brew install --cask virtualbox
 brew install --cask visual-studio-code
+brew install --cask homebrew/cask-versions/visual-studio-code-insiders
 # brew install --cask vmware-fusion
 brew install --cask wechat
 brew install --cask wechatwork
