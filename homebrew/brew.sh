@@ -93,7 +93,6 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 # Install cask.
-brew install --cask alacritty
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask charles
@@ -114,12 +113,10 @@ brew install --cask iina
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask itsycal
-brew install --cask java
 brew install --cask kap
 # brew install --cask karabiner-elements
 brew install --cask keka
 brew install --cask kindle
-brew install --cask kitty
 brew install --cask libreoffice
 brew install --cask libreoffice-language-pack
 brew install --cask liya
