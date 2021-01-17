@@ -13,6 +13,7 @@ brew tap homebrew/cask-fonts
 brew install --cask homebrew/cask-fonts/font-fira-code
 brew install --cask homebrew/cask-fonts/font-source-code-pro
 brew install --cask homebrew/cask-fonts/font-hack
+brew install --cask font-hack-nerd-font
 brew install --cask font-jetbrains-mono
 
 # Install useful binaries.
@@ -87,20 +88,25 @@ brew install vim
 brew install watch
 brew install wget
 brew install yarn
+brew install you-get
 brew install youtube-dl
 brew install zsh-autosuggestions
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 # Install cask.
+brew install --cask adoptopenjdk
 brew install --cask alfred
+brew install --cask anki
 brew install --cask appcleaner
+brew install --cask blender
 brew install --cask charles
 brew install --cask cheatsheet
 # brew install --cask clashx
 brew install --cask dash
 brew install --cask deepl
 # brew install --cask docker
+brew install --cask drawio
 brew install --cask enpass
 brew install --cask eudic
 brew install --cask firefox
@@ -124,6 +130,7 @@ brew install --cask macdown
 # brew install --cask menumeters
 brew install --cask mysqlworkbench
 brew install --cask notion
+brew install --cask obs
 brew install --cask paw
 brew install --cask postman
 brew install --cask raspberry-pi-imager
@@ -131,6 +138,7 @@ brew install --cask royal-tsx
 # brew install --cask shadowsocksx-ng-r
 brew install --cask sourcetree
 brew install --cask spotify
+# brew install --cask stats
 brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask telegram
@@ -140,6 +148,7 @@ brew install --cask transmission
 brew install --cask typora
 # brew install --cask vagrant
 # brew install --cask virtualbox
+# brew install --cask virtualbox-extension-pack
 brew install --cask visual-studio-code
 brew install --cask homebrew/cask-versions/visual-studio-code-insiders
 # brew install --cask vmware-fusion
