@@ -23,7 +23,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 sudo nvram SystemAudioVolume=" "
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.752941 0.964706 0.678431 Green"
+# defaults write NSGlobalDomain AppleHighlightColor -string "0.752941 0.964706 0.678431 Green"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
