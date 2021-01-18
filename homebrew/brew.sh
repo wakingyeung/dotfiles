@@ -117,6 +117,7 @@ brew install --cask grandperspective
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask iina
 brew install --cask imageoptim
+brew install --cask imazing
 brew install --cask iterm2
 brew install --cask itsycal
 brew install --cask kap
@@ -138,7 +139,6 @@ brew install --cask royal-tsx
 # brew install --cask shadowsocksx-ng-r
 brew install --cask sourcetree
 brew install --cask spotify
-# brew install --cask stats
 brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask telegram
