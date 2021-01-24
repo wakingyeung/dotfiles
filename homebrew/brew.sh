@@ -24,6 +24,7 @@ brew install axel
 brew install coreutils
 brew install curl
 brew install dos2unix
+brew install duf
 brew install fd
 brew install findutils
 brew install fping
@@ -99,14 +100,14 @@ brew install --cask adoptopenjdk
 brew install --cask alfred
 brew install --cask anki
 brew install --cask appcleaner
-brew install --cask blender
+# brew install --cask blender
 brew install --cask charles
 brew install --cask cheatsheet
 # brew install --cask clashx
+brew install --cask clipy
 brew install --cask dash
 brew install --cask deepl
 # brew install --cask docker
-brew install --cask drawio
 brew install --cask enpass
 brew install --cask eudic
 brew install --cask firefox
@@ -124,8 +125,8 @@ brew install --cask kap
 # brew install --cask karabiner-elements
 brew install --cask keka
 brew install --cask kindle
-brew install --cask libreoffice
-brew install --cask libreoffice-language-pack
+# brew install --cask libreoffice
+# brew install --cask libreoffice-language-pack
 brew install --cask liya
 brew install --cask macdown
 # brew install --cask menumeters
