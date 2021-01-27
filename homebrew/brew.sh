@@ -27,6 +27,7 @@ brew install dos2unix
 brew install duf
 brew install fd
 brew install findutils
+brew install fortune
 brew install fping
 brew install fzf
 brew install gawk
