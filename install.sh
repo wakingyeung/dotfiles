@@ -139,7 +139,7 @@ _install_ohmyzsh() {
 config_zsh() {
   _install_ohmyzsh
   _config_shell
-  create_symlinks "zsh/waking.zsh-theme" "${OH_MY_ZSH}/themes/waking.zsh-theme"
+  create_symlinks "zsh/waking.zsh-theme" "${OH_MY_ZSH}/custom/themes/waking.zsh-theme"
   create_symlinks "zsh/zshrc" ".zshrc"
   create_symlinks "zsh/zprofile" ".zprofile"
 }
