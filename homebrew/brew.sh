@@ -60,7 +60,6 @@ brew install jq
 brew install kubectl
 brew install lazydocker
 brew install lazygit
-brew install macvim
 brew install mercurial
 brew install mitmproxy
 brew install moreutils
