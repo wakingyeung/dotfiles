@@ -16,6 +16,13 @@ brew install --cask homebrew/cask-fonts/font-hack
 brew install --cask font-hack-nerd-font
 brew install --cask font-jetbrains-mono
 
+# Install services manager
+brew tap homebrew/services
+
+# Install MongoDB
+brew tap mongodb/brew
+brew install mongodb/brew/mongodb-community
+
 # Install useful binaries.
 brew install ack
 brew install aria2
@@ -68,6 +75,7 @@ brew install node
 brew install openssh
 brew install openssl@1.1
 brew install pdsh
+brew install pgcli
 brew install polipo
 brew install postgresql
 brew install pssh
@@ -79,6 +87,7 @@ brew install redis
 brew install ripgrep
 brew install screen
 # brew install shellcheck
+brew install shfmt
 brew install sqlite
 brew install the_silver_searcher
 brew install tig
