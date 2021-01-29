@@ -28,6 +28,7 @@ brew install ack
 brew install aria2
 brew install arping
 brew install axel
+brew install bat
 brew install coreutils
 brew install curl
 brew install dos2unix
@@ -60,6 +61,7 @@ brew install jq
 brew install kubectl
 brew install lazydocker
 brew install lazygit
+brew install lnav
 brew install mercurial
 brew install mitmproxy
 brew install moreutils
@@ -109,11 +111,11 @@ brew install --cask adoptopenjdk
 brew install --cask alfred
 brew install --cask anki
 brew install --cask appcleaner
+brew install --cask brave-browser
 # brew install --cask blender
 brew install --cask charles
 brew install --cask cheatsheet
 # brew install --cask clashx
-brew install --cask clipy
 brew install --cask dash
 brew install --cask deepl
 # brew install --cask docker
@@ -121,9 +123,11 @@ brew install --cask enpass
 brew install --cask eudic
 brew install --cask firefox
 brew install --cask fliqlo
+brew install --cask fsnotes
 brew install --cask gitup
 brew install --cask google-chrome
 brew install --cask grandperspective
+brew install --cask hiddenbar
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask iina
 brew install --cask imageoptim
@@ -137,6 +141,7 @@ brew install --cask kindle
 # brew install --cask libreoffice
 # brew install --cask libreoffice-language-pack
 brew install --cask liya
+brew install --cask maccy
 brew install --cask macdown
 # brew install --cask menumeters
 brew install --cask mysqlworkbench
@@ -147,6 +152,7 @@ brew install --cask postman
 brew install --cask raspberry-pi-imager
 brew install --cask royal-tsx
 # brew install --cask shadowsocksx-ng-r
+brew install --cask skim
 brew install --cask sourcetree
 brew install --cask spotify
 brew install --cask sublime-text
@@ -154,6 +160,7 @@ brew install --cask tableplus
 brew install --cask telegram
 brew install --cask telegram-desktop
 brew install --cask tencent-meeting
+brew install --cask textmate
 brew install --cask transmission
 brew install --cask typora
 # brew install --cask vagrant
