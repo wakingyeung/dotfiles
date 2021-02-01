@@ -28,11 +28,14 @@ brew install ack
 brew install aria2
 brew install arping
 brew install axel
+brew install bandit
 brew install bat
+brew install black
 brew install coreutils
 brew install curl
 brew install dos2unix
 brew install duf
+brew install flake8
 brew install fd
 brew install findutils
 brew install fortune
@@ -57,6 +60,8 @@ brew install httpie
 brew install imagemagick
 brew install ipcalc
 brew install iproute2mac
+brew install ipython
+brew install isort
 brew install jq
 brew install kubectl
 brew install lazydocker
@@ -69,6 +74,7 @@ brew install mosh
 brew install mtr
 brew install mutt
 brew install mycli
+brew install mypy
 brew install mysql
 brew install nginx
 brew install nmap
@@ -77,6 +83,7 @@ brew install openssh
 brew install openssl@1.1
 brew install pdsh
 brew install pgcli
+brew install poetry
 brew install polipo
 brew install postgresql
 brew install pssh
