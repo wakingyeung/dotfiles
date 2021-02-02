@@ -37,6 +37,7 @@ dotfiles=(
   ".gitignore_global"
   ".pip/pip.conf"
   ".ssh/config"
+  ".my.cnf"
   ".npmrc"
   ".yarnrc"
   ".editorconfig"

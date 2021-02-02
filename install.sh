@@ -190,6 +190,13 @@ config_ssh() {
 }
 
 #
+# mysql
+#
+config_mysql() {
+  create_symlinks "mysql/my.cnf" ".my.cnf"
+}
+
+#
 # npm
 #
 config_npm() {
@@ -225,6 +232,7 @@ main() {
   config_git
   config_pip
   config_ssh
+  config_mysql
   config_npm
   config_yarn
   config_editorconfig
