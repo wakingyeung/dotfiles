@@ -1,11 +1,6 @@
 [include]
 	path = ~/.gitconfig.local
 
-[user]
-
-	name = Waking
-	email = wakingyeung23@gmail.com
-
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits.
