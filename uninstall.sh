@@ -32,19 +32,39 @@ dotfiles=(
   ".zprofile"
   ".tmux.conf"
   ".tmux.conf.local"
-  ".vimrc"
+  ".vim_runtime/my_configs.vim"
   ".gitconfig"
   ".gitignore_global"
   ".pip/pip.conf"
-  ".ssh/config"
   ".my.cnf"
   ".npmrc"
-  ".yarnrc"
   ".editorconfig"
   ".screenrc"
 )
 for dotfile in "${dotfiles[@]}"; do
   remove_symlink "$HOME/$dotfile"
+done
+
+remove_file() {
+  dotfile=$1
+  if ! [ -e "$dotfile" ]; then
+    echo "$dotfile does not exist"
+    return
+  fi
+
+  echo "Delete file $dotfile"
+  if [ "$dry_run" -eq 0 ]; then
+    rm -f "$dotfile"
+  fi
+}
+
+dotfiles=(
+  ".gitconfig.local"
+  ".ssh/config"
+  ".yarnrc"
+)
+for dotfile in "${dotfiles[@]}"; do
+  remove_file "$HOME/$dotfile"
 done
 
 echo "Done!"

@@ -33,6 +33,29 @@ create_symlinks() {
 }
 
 #
+# Copy files
+#
+copy_files() {
+  # dotfile_src format such as zsh/zshrc or vim/vimrc
+  dotfile_src=$1
+  dotfile_dst=$2
+  if [[ "$dotfile_src" != /* ]]; then
+    # relative path
+    dotfile_src=$PWD/$dotfile_src
+  fi
+  if [[ "$dotfile_dst" != /* ]]; then
+    # relative path
+    dotfile_dst=$HOME/$dotfile_dst
+  fi
+  if [ -e "$dotfile_dst" ]; then
+    echo "[WARN] Ignore due to $dotfile_dst exists"
+  else
+    cp "$dotfile_src" "$dotfile_dst"
+    echo "Copy file from $dotfile_src to $dotfile_dst"
+  fi
+}
+
+#
 # brew
 #
 install_homebrew() {
@@ -74,6 +97,7 @@ config_vim() {
 config_git() {
   create_symlinks "git/gitconfig" ".gitconfig"
   create_symlinks "git/gitignore_global" ".gitignore_global"
+  copy_files "git/gitconfig.local" ".gitconfig.local"
 }
 
 #
@@ -186,7 +210,7 @@ config_ssh() {
     mkdir "$HOME/.ssh"
     echo "mkdir $HOME/.ssh"
   }
-  create_symlinks "ssh/config" ".ssh/config"
+  copy_files "ssh/config" ".ssh/config"
 }
 
 #
@@ -207,7 +231,7 @@ config_npm() {
 # yarn
 #
 config_yarn() {
-  create_symlinks "yarn/yarnrc" ".yarnrc"
+  copy_files "yarn/yarnrc" ".yarnrc"
 }
 
 #
