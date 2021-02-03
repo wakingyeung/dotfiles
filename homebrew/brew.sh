@@ -164,6 +164,7 @@ brew install --cask sourcetree
 brew install --cask spotify
 brew install --cask sublime-text
 brew install --cask tableplus
+brew install --cask teamviewer
 brew install --cask telegram
 brew install --cask telegram-desktop
 brew install --cask tencent-meeting
