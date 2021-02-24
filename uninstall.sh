@@ -52,16 +52,24 @@ remove_file() {
     return
   fi
 
-  echo "Delete file $dotfile"
+  if [ -d "$dotfile" ]; then
+    echo "Delete directory $dotfile"
+  else
+    echo "Delete file $dotfile"
+  fi
+
   if [ "$dry_run" -eq 0 ]; then
-    rm -f "$dotfile"
+    rm -rf "$dotfile"
   fi
 }
 
 dotfiles=(
   ".gitconfig.local"
+  ".oh-my-tmux"
+  ".oh-my-zsh"
   ".ssh/config"
   ".vim"
+  ".vim_runtime"
   ".yarnrc"
 )
 for dotfile in "${dotfiles[@]}"; do
