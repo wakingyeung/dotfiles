@@ -96,6 +96,7 @@ brew install ripgrep
 brew install screen
 # brew install shellcheck
 brew install shfmt
+brew install smartmontools
 brew install sqlite
 brew install the_silver_searcher
 brew install tig
@@ -118,7 +119,7 @@ brew install --cask adoptopenjdk
 brew install --cask alfred
 brew install --cask anki
 brew install --cask appcleaner
-brew install --cask brave-browser
+# brew install --cask brave-browser
 # brew install --cask blender
 brew install --cask charles
 brew install --cask cheatsheet
@@ -147,13 +148,14 @@ brew install --cask keka
 brew install --cask kindle
 # brew install --cask libreoffice
 # brew install --cask libreoffice-language-pack
-brew install --cask liya
+# brew install --cask liya
 brew install --cask maccy
 brew install --cask macdown
 # brew install --cask menumeters
 brew install --cask mysqlworkbench
 brew install --cask notion
 brew install --cask obs
+brew install --cask obsidian
 brew install --cask paw
 brew install --cask postman
 brew install --cask raspberry-pi-imager
