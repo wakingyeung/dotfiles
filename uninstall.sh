@@ -61,6 +61,7 @@ remove_file() {
 dotfiles=(
   ".gitconfig.local"
   ".ssh/config"
+  ".vim"
   ".yarnrc"
 )
 for dotfile in "${dotfiles[@]}"; do

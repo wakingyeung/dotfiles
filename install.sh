@@ -50,7 +50,7 @@ copy_files() {
   if [ -e "$dotfile_dst" ]; then
     echo "[WARN] Ignore due to $dotfile_dst exists"
   else
-    cp "$dotfile_src" "$dotfile_dst"
+    cp -R "$dotfile_src" "$dotfile_dst"
     echo "Copy file from $dotfile_src to $dotfile_dst"
   fi
 }
@@ -80,14 +80,45 @@ _install_ohmyvim() {
     cd - >/dev/null 2>&1 || return
     echo "Change directory back to $(pwd)"
   else
-    echo "${OH_MY_VIM} not exists. Installing ohmyvim..."
+    echo "${OH_MY_VIM} not exists. Installing..."
     git clone --depth=1 https://github.com/amix/vimrc.git "${OH_MY_VIM}"
     sh "${OH_MY_VIM}/install_awesome_vimrc.sh"
   fi
 }
 
+_install_vim_plugins() {
+  if [ -d "${OH_MY_VIM}/my_plugins/vim-json" ]; then
+    cd "${OH_MY_VIM}/my_plugins/vim-json" || return
+    echo "Change directory to $(pwd)"
+    echo "${OH_MY_VIM}/my_plugins/vim-json exists. Git pull to update..."
+    git pull
+    cd - >/dev/null 2>&1 || return
+    echo "Change directory back to $(pwd)"
+  else
+    echo "${OH_MY_VIM}/my_plugins/vim-json not exists. Installing..."
+    git clone --depth=1 https://github.com/elzr/vim-json.git
+  fi
+}
+
 config_vim() {
+  [ -d "${HOME}/.vim" ] || {
+    mkdir "$HOME/.vim"
+    echo "mkdir $HOME/.vim"
+  }
+  [ -d "${HOME}/.vim/backups" ] || {
+    mkdir "$HOME/.vim/backups"
+    echo "mkdir $HOME/.vim/backups"
+  }
+  [ -d "${HOME}/.vim/swaps" ] || {
+    mkdir "$HOME/.vim/swaps"
+    echo "mkdir $HOME/.vim/swaps"
+  }
+  [ -d "${HOME}/.vim/undo" ] || {
+    mkdir "$HOME/.vim/undo"
+    echo "mkdir $HOME/.vim/undo"
+  }
   _install_ohmyvim
+  _install_vim_plugins
   create_symlinks "vim/vimrc" "$HOME/.vim_runtime/my_configs.vim"
 }
 
