@@ -36,7 +36,6 @@ dotfiles=(
   ".gitconfig"
   ".gitignore_global"
   ".pip/pip.conf"
-  ".my.cnf"
   ".npmrc"
   ".editorconfig"
   ".screenrc"
@@ -65,6 +64,7 @@ remove_file() {
 
 dotfiles=(
   ".gitconfig.local"
+  ".my.cnf"
   ".oh-my-tmux"
   ".oh-my-zsh"
   ".ssh/config"

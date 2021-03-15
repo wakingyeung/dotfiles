@@ -249,7 +249,7 @@ config_ssh() {
 # mysql
 #
 config_mysql() {
-  create_symlinks "mysql/my.cnf" ".my.cnf"
+  copy_files "mysql/my.cnf" ".my.cnf"
 }
 
 #
