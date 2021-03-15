@@ -27,6 +27,8 @@ brew install mongodb/brew/mongodb-community
 brew install ack
 brew install aria2
 brew install arping
+brew install autoconf
+brew install automake
 brew install axel
 brew install bandit
 brew install bat
@@ -67,6 +69,7 @@ brew install kubectl
 brew install lazydocker
 brew install lazygit
 brew install lnav
+brew install make
 brew install mercurial
 brew install mitmproxy
 brew install moreutils
@@ -89,6 +92,7 @@ brew install postgresql
 brew install pssh
 brew install pstree
 brew install python
+brew install rabbitmq
 brew install ranger
 brew install reattach-to-user-namespace
 brew install redis
@@ -98,6 +102,7 @@ brew install screen
 brew install shfmt
 brew install smartmontools
 brew install sqlite
+brew install telnet
 brew install the_silver_searcher
 brew install tig
 brew install tldr
@@ -123,7 +128,9 @@ brew install --cask appcleaner
 # brew install --cask blender
 brew install --cask charles
 brew install --cask cheatsheet
+# brew install --cask clash-for-windows
 # brew install --cask clashx
+brew install --cask clashx-pro
 brew install --cask dash
 brew install --cask deepl
 # brew install --cask docker
@@ -152,6 +159,7 @@ brew install --cask kindle
 brew install --cask maccy
 brew install --cask macdown
 # brew install --cask menumeters
+brew install --cask microsoft-edge
 brew install --cask mysqlworkbench
 brew install --cask notion
 brew install --cask obs
