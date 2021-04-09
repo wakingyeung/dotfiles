@@ -87,16 +87,17 @@ _install_ohmyvim() {
 }
 
 _install_vim_plugins() {
-  if [ -d "${OH_MY_VIM}/my_plugins/vim-json" ]; then
-    cd "${OH_MY_VIM}/my_plugins/vim-json" || return
+  vim_json="${OH_MY_VIM}/my_plugins/vim-json"
+  if [ -d "${vim_json}" ]; then
+    cd "${vim_json}" || return
     echo "Change directory to $(pwd)"
-    echo "${OH_MY_VIM}/my_plugins/vim-json exists. Git pull to update..."
+    echo "${vim_json}exists. Git pull to update..."
     git pull
     cd - >/dev/null 2>&1 || return
     echo "Change directory back to $(pwd)"
   else
-    echo "${OH_MY_VIM}/my_plugins/vim-json not exists. Installing..."
-    git clone --depth=1 https://github.com/elzr/vim-json.git
+    echo "${vim_json} not exists. Installing..."
+    git clone --depth=1 https://github.com/elzr/vim-json.git "${vim_json}"
   fi
 }
 
